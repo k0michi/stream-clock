@@ -17,6 +17,6 @@ container.appendChild(date);
 
 setInterval(() => {
   const now = new Date();
-  time.textContent = format(now, 'kk:mm:ss');
+  time.textContent = format(now, 'HH:mm:ss');
   date.textContent = format(now, 'yyyy.MM.dd EEE');
 }, 1000);
